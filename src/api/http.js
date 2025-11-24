@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useAuthStore } from '@/stores/auth'
 
 const http = axios.create({
-  baseURL: 'https://dummyjson.com',
+  baseURL: 'https://dummyjson-123.com',
   headers: {
     'Content-Type': 'application/json'
   }
